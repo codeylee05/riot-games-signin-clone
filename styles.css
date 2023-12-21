@@ -1,0 +1,183 @@
+body {
+    background: rgba(0, 0, 0, .8);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(arcane_dsktp_centerAlignedCrd_BG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -195px;
+}
+
+.logo-cont {
+    transform: translateX(-100px);
+    transform: translateY(-100px);
+}
+
+.sign_in-cont {
+    position: absolute;
+    top: 115px;
+    left: 455px;
+    background: white;
+    width: 385px;
+    height: 554px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sign_in-cont-title {
+    margin-top: 80px;
+    font-size: 25px;
+    font-weight: 700
+}
+
+.sign_in-cont-inputs {
+    margin-top: 24px;
+}
+
+.sign_in-cont-inputs .input-username input {
+    width: 289px;
+    height: 40px;
+    margin-bottom: 14px;
+    font-size: 10.5px;
+    font-weight: 700;
+    border: none;
+    background: rgba(0, 0, 0, 0.03);
+    border-radius: 3px;
+}
+
+.sign_in-cont-inputs .input-password input {
+    width: 289px;
+    height: 40px;
+    font-size: 10.5px;
+    font-weight: 700;
+    border: none;
+    background: rgba(0, 0, 0, 0.03);
+    border-radius: 3px;
+
+}
+
+.sign_in-cont-alternatives {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.sign_in-cont-alternatives div {
+    width: 68px;
+    height: 31.5px;
+    border-radius: 10px;
+    margin-right: 8px;
+    position: relative;
+    cursor: pointer;
+}
+
+.sign_in-cont-alternatives div svg {
+    position: absolute;
+    top: 5px;
+    left: 23px;
+}
+
+.svg-facebook {
+    transform: translateY(1px)
+}
+
+.svg-xbox {
+    transform: translateX(2px);
+}
+
+.alt-facebook {
+    background: rgba(0, 0, 255, .9);
+}
+
+.alt-google {
+    background: white;
+    border: solid 1px lightgray;
+}
+
+.alt-apple {
+    background: black;
+}
+
+.alt-xbox {
+    background: green;
+}
+
+.stay_signed_in-check {
+    margin-top: 14px;
+    display: flex;
+    flex-direction: row;
+    transform: translateX(-90px);
+}
+
+.stay_signed_in-check div {
+    margin-left: 0px;
+    font-size: 14px;
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.sign_in-control {
+    position: relative;
+    margin-top: 80px;
+    width: 70px;
+    height: 70px;
+    border: solid 1px lightgray;
+    border-radius: 25px;
+    cursor: not-allowed;
+
+}
+
+.sign_in-control svg {
+    position: absolute;
+    top: 23px;
+    left: 23px;
+}
+
+.text-control {
+    margin-top: 30px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.text-control div {
+    margin-bottom: 8px;
+    color: black;
+}
+
+.text-control a {
+    text-decoration: none;
+}
+
+.footer {
+    position: absolute;
+    top: 770px;
+    left: 60px;
+    font-size: 10px;
+    color: darkgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.footer-1 {
+    display: flex;
+    flex-direction: row;
+    transform: translateY(-50px);
+}
+
+.footer-1 div {
+    margin-right: 13px;
+}
+
+.footer-2 {
+    transform: translateY(-34px);
+    font-size: 9.5px;
+}
+
+.footer-2 span {
+    text-decoration: underline;
+}
