@@ -1,1 +1,1 @@
-#A clone of the Riot Games website sign-in page
+A clone of the Riot Games website sign-in page
